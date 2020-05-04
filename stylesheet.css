@@ -1,0 +1,63 @@
+.grid-container{
+    display: grid;
+    grid-template-rows: 40px 40px 40px 40px 40px 40px 40px 40px 40px ;
+    grid-template-columns: 40px 40px 40px 40px 40px 40px 40px 40px ;
+    grid-gap: 4px;
+    margin:20px;
+}
+     
+.grid-item{
+       display: grid;
+       grid-template-rows: 40px  ;
+       grid-template-columns: 40px;     
+       border: 2px solid #000;
+}
+
+
+.stone{
+    height: 32px;
+    width: 32px;
+    border: 2px solid #000000;
+    border-radius: 50%;
+}
+
+.blackStone {
+	background-color:black;
+}
+
+#reset {
+  cursor: pointer;
+}
+
+
+.whiteStone {
+	background-color:white;
+}
+
+.score{
+  padding: 2px 24px;
+  display: inline-block;
+  opacity: 1;
+  font-size: 25px;
+  background-color:gray;
+}
+
+#black {
+  color: orange;
+}
+
+#white {
+  color: blue;
+}
+
+.message{
+  padding: 2px 24px;
+  display: inline-block;
+  opacity: 1;
+  font-size: 25px;
+  background-color:gray;
+}
+
+
+
+
